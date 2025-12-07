@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="今日心情"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <RatingBar
+            android:id="@+id/rbMood"
+            android:numStars="5"
+            android:stepSize="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="心情備註"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/etNote"
+            android:hint="寫下今天的心情、想法..."
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="top" />
+
+
+        <Button
+            android:id="@+id/btnSaveDiary"
+            android:text="儲存日記"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#3F51B5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</ScrollView>
