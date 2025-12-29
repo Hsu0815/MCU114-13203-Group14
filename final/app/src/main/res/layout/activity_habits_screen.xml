@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每日習慣"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:id="@+id/etHabit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="輸入習慣" />
+
+    <Button
+        android:id="@+id/btnSaveHabit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新增習慣" />
+
+    <Button
+        android:id="@+id/btnCheckInHabit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="今日打卡" />
+
+    <TextView
+        android:id="@+id/tvProgress2"
+        android:text="目前進度: 0 / 0"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/layoutHabits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"/>
+
+
+
+
+
+</LinearLayout>
